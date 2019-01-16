@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Party Helper</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string-array name="drawer_titles">
+        <item>Login</item>
+        <item>Register</item>
+        <item>Ad Of The Day</item>
+        <item>Home</item>
+        <item>Profile Picture</item>
+        <item>Create Event</item>
+        <item>Change Password</item>
+        <item>Users Testing</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_item_one">ItemOne</string>
+    <string name="title_section1">Invites</string>/
+    <string name="title_section2">Home</string>
+    <string name="title_section3">My Events</string>
+    <string name="title_activity_tabbed">TabbedActivity</string>
+    <string name="title_activity_one">One</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+
+    <string name="title_activity_text">Text</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="textViewLogin">Login</string>
+    <string name="EmailEdtText">Email</string>
+    <string name="passwordEdtText">password</string>
+    <string name="LoginButton">Login</string>
+    <string name="title_activity_change_password">ChangePassword</string>
+
+
+    <string name="ChangePasswordTextview">Change Password</string>
+    <string name="oldPassTextView">Old Password</string>
+    <string name="newpassTextView">New Password</string>
+    <string name="confirmTextView">Confirm</string>
+    <string name="ChangepasswordBtn">Change Password</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="textViewRegister">Register</string>
+    <string name="edtUsername">Username</string>
+    <string name="edtEmail">Email</string>
+    <string name="textViewPass1">Password</string>
+    <string name="textviewConfirm">Confirm</string>
+    <string name="radMale">Male</string>
+    <string name="radfemale">Female</string>
+    <string name="title_activity_profile_pic">ProfilePic</string>
+    <string name="btnSelectPP">Select profile Picture</string>
+    <string name="uploadBtn">Upload</string>
+    <string name="title_activity_create_event">CreateEventActivity</string>
+    <string name="TextViewEvent">Create Event</string>
+    <string name="edtName">Name</string>
+    <string name="btnImage">Event Image</string>
+    <string name="CreateBtn">Create</string>
+    <string name="title_activity_users">UsersActivity</string>
+    <string name="title_activity_invite">InviteActivity</string>
+    <string name="title_activity_my_events">MyEventsActivity</string>
+    <string name="UsernameLogin">Username</string>
+    <string name="title_activity_profile_pic_fragment">ProfilePicFragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="PassTxt">pass</string>
+    <string name="title_activity_intro">IntroActivity</string>
+    <string name="konnectString">We Use The Same Users As Konnect</string>
+    <string name="title_activity_place">PlaceActivity</string>
+
+</resources>

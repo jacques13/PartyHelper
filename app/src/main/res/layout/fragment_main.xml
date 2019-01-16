@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="partyhelper.com.xpoliem.myapplication.MainFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Username"
+        android:id="@+id/txtViewUsername"
+        android:layout_gravity="center_horizontal|top"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Invites"
+        android:id="@+id/txtViewInvites"
+        android:layout_gravity="left|bottom"
+        android:layout_below="@+id/imgViewUser"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="My Events"
+        android:id="@+id/txtViewMyEvents"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_below="@+id/txtViewGoing"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/txtViewGoing"
+        android:layout_gravity="right|bottom"
+        android:text="Going"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/txtViewInvites"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/imgViewUser"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_launcher"
+        android:layout_below="@+id/txtViewUsername"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

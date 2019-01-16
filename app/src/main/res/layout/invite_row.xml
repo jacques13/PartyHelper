@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="330dp" android:padding="3dp"
+    android:layout_margin="1dp"
+    android:clickable="true"
+    android:longClickable="true">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/imgViewInvite"
+        android:src="@drawable/ic_launcher"
+        android:layout_below="@+id/addressText"
+        android:layout_toLeftOf="@+id/textView2"
+        android:layout_toStartOf="@+id/textView2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/InvitenameText"
+        android:layout_alignParentTop="true"
+        android:background="#907401ff"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#f0f0f0f0"
+        android:gravity="center"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/InvitedateText"
+        android:layout_above="@+id/goingText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/InvitetimeText"
+        android:layout_alignTop="@+id/whoInvitedMeText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Loading..."
+        android:id="@+id/goingText"
+        style="@style/GoingButtons"
+        android:layout_above="@+id/InvitetimeText"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/whoInvitedMeText"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:padding="3dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/numberGoingText"
+        android:layout_above="@+id/goingText"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/addressText"
+        android:layout_below="@+id/InvitenameText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Press and hold to open in Google Maps"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/InvitenameText"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Press Going Button To Change Status "
+        android:id="@+id/textView11"
+        android:layout_below="@+id/textView2"
+        android:layout_toRightOf="@+id/imgViewInvite"
+        android:layout_toEndOf="@+id/imgViewInvite"
+        android:layout_above="@+id/numberGoingText" />
+
+</RelativeLayout>
